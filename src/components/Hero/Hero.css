@@ -1,6 +1,7 @@
 .hero {
   display: flex;
   justify-content: space-between;
+ 
 }
 
 .left-h {
@@ -151,4 +152,34 @@
   right: 20rem;
   z-index: -1;
   width: 15rem;
+}
+
+.calories{
+  display: flex;
+  gap: 2rem;
+  background-color: var(--caloryCard);
+  border-radius: 5px;
+  padding: 1rem;
+  width: fit-content;
+  position: absolute;
+  top: 32rem;
+  right: 28rem;
+}
+.calories > imf {
+  width: 3rem;
+}
+
+.calories > div {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.calories > div > :nth-child(1) {
+  color: var(--gray);
+}
+
+.calories > div > :nth-child(2) {
+  color: white;
+  font-size: 1.5rem;
 }
