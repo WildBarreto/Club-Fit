@@ -1,6 +1,6 @@
 import React from "react";
 
-import './Plans.css'
+import "./Plans.css";
 
 import { plansData } from "../../data/plansData";
 import whiteTick from "../../assets/whiteTick.png";
@@ -8,6 +8,8 @@ import whiteTick from "../../assets/whiteTick.png";
 const Plans = () => {
   return (
     <div className="plans-container">
+      <div className="blur plans-blur-1"></div>
+      <div className="blur plans-blur-2"></div>
       <div className="programs-header" style={{ gap: "2rem" }}>
         <span className="stroke-text">PRONTO PARA COMEÇAR</span>
         <span>SUA JORNADA</span>
@@ -35,9 +37,7 @@ const Plans = () => {
             <div>
               <span>Veja mais beneficios</span>
             </div>
-            <button className="btn">
-                Junte-se agora
-            </button>
+            <button className="btn">Junte-se agora</button>
           </div>
         ))}
       </div>
