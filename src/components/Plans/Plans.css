@@ -83,3 +83,18 @@
   right: 0rem;
   
 }
+
+
+.left-r> :nth-child(1){
+  width: 7rem;
+  height: 17rem;
+}
+
+@media screen and (max-width: 768px){
+  .plans{
+    flex-direction: column;
+  }
+  .plans>:nth-child(2){
+    transform: none;
+  }
+}
